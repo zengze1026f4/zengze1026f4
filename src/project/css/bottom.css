@@ -1,0 +1,59 @@
+.wrappers {
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 12px;
+}
+
+.wrappers .foot_nav {
+  height: 50px;
+  line-height: 50px;
+  text-shadow: 0 1px 0 #fff;
+  text-align: center;
+}
+
+.wrappers .foot_nav a {
+  color: #333;
+}
+
+.wrappers .foot_nav a img {
+  width: 124px;
+  height: 47px;
+}
+
+.wrappers .foot_nav i {
+  margin: 0 15px;
+  color: #ccc;
+}
+
+.wrappers .copy {
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.wrappers .copy p {
+  line-height: 25px;
+  color: #999;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.wrappers .bot-link {
+  text-align: center;
+  height: 60px;
+}
+
+.wrappers .bot-link a {
+  color: #333;
+  background: #fff;
+  display: inline-block;
+  width: 130px;
+  height: 50px;
+  border: solid 1px #eee;
+  border-radius: 3px;
+  margin: 0 5px;
+  vertical-align: middle;
+}
+
+.wrappers .bot-link a img {
+  width: 124px;
+  height: 47px;
+}

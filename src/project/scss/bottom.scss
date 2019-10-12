@@ -1,0 +1,61 @@
+.wrappers {
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 12px;
+
+    .foot_nav {
+        height: 50px;
+        line-height: 50px;
+        text-shadow: 0 1px 0 #fff;
+        text-align: center;
+
+        a {
+            color: #333;
+
+            img {
+                width: 124px;
+                height: 47px;
+            }
+        }
+
+        i {
+            margin: 0 15px;
+            color: #ccc;
+        }
+    }
+
+    .copy {
+        padding-bottom: 15px;
+        text-align: center;
+
+        p {
+            line-height: 25px;
+            color: #999;
+            text-shadow: 0 1px 0 #fff;
+        }
+
+
+    }
+
+    .bot-link {
+        text-align: center;
+        height: 60px;
+
+        a {
+            color: #333;
+            background: #fff;
+            display: inline-block;
+            width: 130px;
+            height: 50px;
+            border: solid 1px #eee;
+            border-radius: 3px;
+            margin: 0 5px;
+            vertical-align: middle;
+
+            img {
+                width: 124px;
+                height: 47px;
+            }
+        }
+    }
+}

@@ -1,0 +1,545 @@
+#goodscar {
+    width: 100%;
+
+
+    .header-top {
+        width: 100%;
+        height: 30px;
+        background: #e3e4e5;
+        border-bottom: solid 1px #e3e4e5;
+        // position: relative;
+        z-index: 3;
+
+        .header_wrapper {
+            width: 94%;
+            margin: 0 auto;
+            font-size: 12px;
+
+            .header-top1 {
+                line-height: 30px;
+                color: #6b6b6b;
+                overflow: hidden;
+                display: block !important;
+                float: left;
+
+                a {
+                    color: #333333;
+
+                    i {
+                        color: #6b6b6b;
+                    }
+                }
+
+                a:hover {
+                    color: #4FB99F;
+                }
+            }
+
+            .header-top2 {
+                line-height: 30px;
+                color: #6b6b6b;
+                // overflow: hidden;
+                margin-left: 15px;
+                float: left;
+
+                p {
+                    line-height: 30px;
+                    color: #6b6b6b;
+
+                    a {
+                        color: #6b6b6b;
+                        // position: relative;
+
+                        i {
+                            display: inline-block;
+                            vertical-align: middle;
+                            margin: 0 3px;
+                            // position: relative;
+                            bottom: 1px;
+                        }
+
+                        i:hover {
+                            color: #4FB99F;
+                        }
+                    }
+
+                    a:hover {
+                        color: #4FB99F;
+                    }
+                }
+            }
+
+            .header-top3 {
+                height: 30px;
+                // overflow: hidden;
+                float: right;
+                // width: 690px;
+
+                a {
+                    float: left;
+                    height: 30px;
+                    line-height: 30px;
+                    padding: 0 10px;
+                    color: #6b6b6b;
+                    // display: inline;
+                    position: relative;
+                    border: 1px solid transparent;
+
+                    .icon-triangle-copy-copy-copy {
+                        color: #6b6b6b;
+                    }
+                }
+
+
+
+                .sanjiao2,
+                .sanjiao4 {
+                    width: 0;
+                    height: 0;
+                    border-left: 5px solid transparent;
+                    border-right: 5px solid transparent;
+                    border-top: 7px solid #bbb;
+                    display: inline-block;
+                    vertical-align: middle;
+                    margin: 0 3px;
+                    -webkit-transform: rotate(180deg);
+                    -webkit-transition: -webkit-transform .4s;
+                }
+
+
+                a:hover {
+                    color: #4FB99F;
+                    background-color: #fff;
+                    border-left: solid 1px #ccc;
+                    border-right: solid 1px #ccc;
+                    z-index: 3;
+                }
+
+                .sanjiao2,
+                .sanjiao4 {
+                    width: 0;
+                    height: 0;
+                    border-left: 5px solid transparent;
+                    border-right: 5px solid transparent;
+                    border-top: 7px solid #bbb;
+                    display: inline-block;
+                    vertical-align: middle;
+                    margin: 0 3px;
+                    -webkit-transform: rotate(0deg);
+                    -webkit-transition: -webkit-transform .3s;
+                    transition: transform .3s;
+                }
+            }
+
+            .header-top4 {
+                position: absolute;
+                background: #fff;
+                top: 29px;
+                width: 90px;
+                padding: 0 10px;
+                box-sizing: border-box;
+                border: solid 1px #ccc;
+                display: none;
+                z-index: 2;
+                left: 42.7%;
+
+                a {
+                    display: block;
+                    height: 30px;
+                    line-height: 30px;
+                    color: #6b6b6b;
+                    text-align: center;
+                }
+
+                a:hover {
+                    color: #4FB99F;
+                }
+            }
+
+            .header-top5 {
+                position: absolute;
+                background: #fff;
+                top: 29px;
+                width: 1198px;
+                border: solid 1px #ddd;
+                display: none;
+                z-index: 2;
+                font-size: 12px;
+
+                ul {
+                    // overflow: hidden;
+                    height: 200px;
+
+                    li {
+                        padding: 20px 0;
+                        height: 200px;
+                        width: 20%;
+                        float: left;
+                        overflow: hidden;
+
+                        h3 {
+                            font-weight: normal;
+                            margin: 0 20px 10px;
+                            font-size: 16px;
+                        }
+
+                        div {
+                            padding: 0 20px;
+
+                            a {
+                                float: left;
+                                height: 32px;
+                                line-height: 32px;
+                                color: #6b6b6b;
+                                width: 99px;
+                                position: relative;
+                            }
+
+                            a:hover {
+                                color: #4FB99F;
+                            }
+
+                        }
+                    }
+                }
+            }
+
+
+        }
+    }
+
+    .maingoods {
+        width: 1200px;
+        margin: 0 auto;
+        min-height: 450px;
+        max-width: 1200px;
+
+        .maingoods1 {
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+
+            .maingoods11 {
+                overflow: hidden;
+                display: flex;
+                justify-content: space-between;
+
+                a {
+                    width: 160px;
+                    height: 100px;
+
+                    img {
+                        margin-top: 20px;
+                        width: 100px;
+                        vertical-align: top;
+                    }
+                }
+
+                .maingright {
+                    display: flex;
+
+                    dl {
+                        background: #dfdfdf;
+                        height: 8px;
+                        width: 120px;
+                        position: relative;
+                        top: 30px;
+
+                        dt {
+                            width: 24px;
+                            height: 24px;
+                            position: absolute;
+                            left: 50%;
+                            top: 50%;
+                            margin-left: -12px;
+                            margin-top: -12px;
+                            line-height: 24px;
+                            text-align: center;
+                            background: #dfdfdf;
+                            border: 1px solid #ccc;
+                            border-radius: 100%;
+                            font-size: 14px;
+                        }
+
+                        dd {
+                            top: 24px;
+                            left: 0;
+                            text-align: center;
+                            width: 100%;
+                            position: absolute;
+                        }
+                    }
+
+                    dl:nth-child(1) {
+                        background: #f21c1c;
+                        height: 8px;
+                        width: 120px;
+                        position: relative;
+                        top: 30px;
+
+                        dt {
+                            background: #f21c1c;
+                            border-color: #f21c1c;
+                            color: #fff;
+                            width: 24px;
+                            height: 24px;
+                            position: absolute;
+                            left: 50%;
+                            top: 50%;
+                            margin-left: -12px;
+                            margin-top: -12px;
+                            line-height: 24px;
+                            text-align: center;
+                            // border: 1px solid #ccc;
+                            border-radius: 100%;
+                            font-weight: 500;
+                            font-size: 14px;
+                        }
+
+                        dd {
+                            color: #f21c1c;
+                            font-weight: 700;
+                            top: 24px;
+                            left: 0;
+                            text-align: center;
+                            width: 100%;
+                            position: absolute;
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+        .maingwc {
+            box-sizing: content-box;
+
+            .maingwc-top {
+                .maingwc-top1 {
+                    border: 0;
+                    padding: 5px 0;
+                    clear: both;
+                    margin-top: 10px;
+                    overflow: hidden;
+
+                    .maingwc-top11 {
+                        float: left;
+                        width: 50px;
+                        text-align: center;
+                        padding: 0;
+                        font-size: 12px;
+
+                        .label {
+
+
+                            .qux {
+                                vertical-align: middle;
+                                margin-right: 3px;
+                                outline: none;
+                                border: none !important;
+                                display: inline-block;
+                                width: 16px;
+                                height: 16px;
+                                box-sizing: border-box;
+                            }
+                        }
+                    }
+
+                    .maingwc-top12 {
+                        margin-left: 50px;
+                        overflow: hidden;
+                        // height: 28px;
+                        font-size: 12px;
+
+                        .maingwc-top121 {
+                            overflow: hidden;
+                            float: left;
+                            padding-left: 104px;
+                            width: 446px;
+                            box-sizing: content-box;
+                        }
+
+                        .maingwc-top122 {
+                            width: 120px;
+                            float: left;
+                        }
+                    }
+
+
+
+                }
+
+
+
+            }
+
+            .maingwc-bottom {
+                border: 1px solid #dfdfdf;
+                clear: both;
+                margin-top: 10px;
+                overflow: hidden;
+                width: 100%;
+
+                #cart {
+                    width: 100%;
+                    font-size: 14px;
+
+                    li {
+                        width: 100%;
+                        height: 110px;
+                        line-height: 110px;
+                        border-bottom: 1px solid #dfdfdf;
+
+                        p {
+                            float: left;
+                        }
+
+                        .good_check {
+                            margin-left: 20px;
+                        }
+
+                        .good_img {
+                            padding-left: 20px;
+                            width: 100px;
+
+                            img {
+                                height: 80px;
+                                width: 80px;
+                            }
+
+                        }
+
+                        .good_name {
+                            float: left;
+                            width: 440px;
+                            box-sizing: content-box;
+                            overflow: hidden;
+                        }
+
+
+                        .good_price {
+                            overflow: hidden;
+                            float: left;
+                            // padding-left: 50px;
+                            width: 120px;
+                            box-sizing: content-box;
+                        }
+
+                        .youhui {
+                            text-align: center;
+                            width: 80px;
+                        }
+
+                        .num {
+
+
+                            .nownum {
+                                border: 1px solid #ccc;
+
+                                width: 100px;
+                                height: 20px;
+                                line-height: 20px;
+                                box-sizing: border-box;
+                            }
+
+                            #add {
+                                display: inline-block;
+                                width: 20px;
+                                height: 20px;
+                                background: #d8d8d8;
+                                cursor: pointer;
+                                text-align: center;
+                                line-height: 20px;
+                                box-sizing: border-box;
+                            }
+
+                            #cut {
+                                width: 20px;
+                                height: 20px;
+                                background: #d8d8d8;
+                            }
+                        }
+
+                        .good_total {
+                            width: 120px;
+                            text-align: center;
+                            color: #f21c1c;
+                        }
+
+                        .good_del {
+                            padding-left: 30px;
+                            width: 100px;
+
+                        }
+
+
+                    }
+                }
+
+            }
+
+            .delzong {
+                width: 100%;
+                font-size: 14px;
+                height: 110px;
+                line-height: 110px;
+
+                p {
+                    float: left;
+                }
+
+                .allchecked {
+                    margin-left: 20px;
+                }
+
+                .delall {
+                    a {
+                        display: inline-block;
+                        margin-left: 70px;
+                        width: 50px;
+                        text-align: center;
+                    }
+                }
+
+                .allnum {
+                    margin-left: 100px;
+                    width: 200px;
+                    text-align: center;
+                }
+
+                .totalprice {
+
+                    width: 200px;
+                    text-align: center;
+                    margin-left: 400px;
+
+                    span {
+                        color: #f21c1c;
+                    }
+                }
+
+                .jiesuan {
+                    height: 40px;
+                    line-height: 40px;
+                    width: 100px;
+                    text-align: center;
+                    margin-top: 34px;
+                    border: 1px solid #ccc;
+                    background-color: #dfdfdf;
+
+                }
+
+                .jsactive {
+                    height: 40px;
+                    line-height: 40px;
+                    width: 100px;
+                    text-align: center;
+                    margin-top: 34px;
+                    border: 1px solid #f21c1c;
+                    background-color: #f21c1c;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <div id="box2">
+        <div id="head">
+            <!-- header -->
+            <h2>丫丫网电商管理系统</h2>
+            <ul>
+                <li>
+                    <i class="iconfont icon-yonghu
+                    "></i>
+
+                    <a href="###">欢迎你,</a>
+                    <a class="" id="welcome"> admin</a>
+
+                </li>
+                <li>
+                    <i class="iconfont icon-exit-door
+                    "></i>
+                    <a href="###" id="exit">退出系统</a>
+                </li>
+                <li>
+                    <input type="text" value="" placeholder="搜索...">
+                    <img src="../images/sousuologo.png" alt="">
+                </li>
+            </ul>
+
+        </div>
+        <div id="main">
+            <div id="caidan">
+                <!-- 左边选择框 -->
+                <div class="sfq" style="width:100%;background: #282B33;height:100%;">
+                    <div id="left">
+
+                    </div>
+
+                </div>
+            </div>
+            <div id="form">
+                <!-- 加右边的表格 -->
+                <iframe width="100%" height="100%" id="content" src="user.html" frameborder="0"></iframe>
+                <!-- <li><iframe src="adduser.html" frameborder="0"></iframe></li>
+                <li><iframe src="xiugaimima.html" frameborder="0"></iframe></li>
+                <li><iframe src="goods.html" frameborder="0"></iframe></li> -->
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../js/jquery-1.10.1.min.js"></script>
+<script src="../js/j-common.js"></script>
+<script src="../js/sfq.js"></script>
+<script>
+    sfq({
+        ele: 'left',
+        nav1: ['表单', '商品信息'],//标题元素
+        nav2: [
+            ['用户管理', '添加新用户', '修改密码', '商品信息表'],
+            ['商品信息管理'],
+        ],
+        liheight: 40,//nav2的高度
+        width: 192
+    });
+    $('ul li').click(function () {
+        $(this).addClass('active').siblings().removeClass('active');
+    });
+    let welcome = document.getElementById('welcome');
+    let exit = document.getElementById('exit');
+    let data = getCookie('username');
+    if (data) {
+        //登陆的
+        welcome.innerHTML = data;
+    }
+    exit.onclick = () => {
+        alert('退出成功');
+        removeCookie('username');
+        window.open('login.html');
+    }
+    let arr = ['user.html', 'adduser.html', 'xiugaimima.html', 'goods.html'];
+    $('#left').on('click', 'ul li', function () {
+        let url = arr[$(this).index()];
+        $('#content').attr('src', url);
+    })
+</script>
+
+</html>

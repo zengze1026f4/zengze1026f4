@@ -1,0 +1,116 @@
+.footer1 {
+    clear: both;
+    background: #fff;
+    position: relative;
+    z-index: 2;
+    margin-top: 30px;
+
+    .promise {
+        height: 110px;
+        width: 1200px;
+        margin: 0 auto;
+
+        a {
+            width: 220px;
+            float: left;
+            margin-top: 30px;
+            margin-left: 20px;
+            text-decoration: none;
+
+            dl {
+                width: 220px;
+
+                dt {
+                    width: 50px;
+                    height: 50px;
+                    font-size: 30px;
+                    line-height: 50px;
+                    text-align: center;
+                    float: left;
+                    color: #4fb99f;
+                }
+
+                dd {
+                    margin-left: 60px;
+
+                    h4 {
+                        font-size: 20px;
+                        color: #4FB99F;
+                    }
+
+                    p {
+                        color: #9c9c9c;
+                    }
+                }
+            }
+        }
+    }
+
+    .foot-help {
+        border-top: solid 1px #eee;
+        height: 160px;
+
+        .wrapper {
+            width: 1200px;
+            margin: 0 auto;
+
+            dl {
+                float: left;
+                height: 110px;
+                width: 180px;
+                padding-top: 30px;
+
+                dt {
+                    font-size: 14px;
+                    padding-left: 8px;
+                }
+
+                dd {
+                    padding-left: 10px;
+                    margin-top: 10px;
+
+                    a {
+                        font-size: 12px;
+                        display: block;
+                        line-height: 25px;
+                        color: #9c9c9c;
+                    }
+                }
+            }
+
+            .foot-sns {
+                width: 250px;
+                float: right;
+
+                dt {
+                    width: 70px;
+                    height: 70px;
+                    float: left;
+                    padding: 0;
+
+                    img {
+                        width: 70px;
+                        height: 70px;
+                    }
+                }
+
+                dd {
+                    padding: 0;
+                    margin: 0 0 0 75px;
+
+                    h4 {
+                        font-weight: normal;
+                        font-size: 14px;
+                    }
+
+                    p {
+                        font-size: 12px;
+                        margin-top: 5px;
+                        line-height: 20px;
+                        color: #999;
+                    }
+                }
+            }
+        }
+    }
+}

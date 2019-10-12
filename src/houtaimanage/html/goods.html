@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>用户修改页面</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/goods.css">
+</head>
+
+<body>
+    <div id="box">
+        <p class="title"><i></i><a href="main.html">主页</a></p>
+        <div class="foot">
+            <div class="content">
+                <h2>商品信息管理</h2>
+                <div class="line"></div>
+                <table border="1" cellspacing='0'>
+                    <thead>
+                        <tr style="height:50px;">
+                            <th><input type="checkbox" name="" id="">
+                            </th>
+                            <th colspan="5" style="width: 75%;">商品信息表</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="checkbox" name="" id="">
+                            </td>
+                            <td>gid</td>
+                            <td>标题</td>
+                            <td>价格</td>
+                            <td>库存</td>
+                            <td>url</td>
+                            <td>
+                                <input type="button" value="修改并保存" id="usave">
+                                <input type="button" value="删除" id="del">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="alldel">
+                    <input type="button" value="全删">
+                </div>
+
+                <div class="fenye">
+                    <input type="button" value="Previoud">
+                    <input type="button" value="1" class="active">
+                    <input type="button" value="2">
+                    <input type="button" value="3">
+                    <input type="button" value="4">
+                    <input type="button" value="5">
+                    <input type="button" value="6">
+                    <input type="button" value="Next">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../js/jquery-1.10.1.min.js"></script>
+<script src="../js/goods.js"></script>
+<script>
+</script>
+
+</html>

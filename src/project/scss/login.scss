@@ -1,0 +1,215 @@
+.wrapper {
+    width: 960px;
+    margin: auto;
+}
+
+.wrapper .log_head {
+    height: 80px;
+}
+
+.wrapper .log_head .log_logo {
+    height: 80px;
+    width: 220px;
+    float: left;
+}
+
+.wrapper .log_head .log_logo a {
+    position: relative;
+    width: 400px;
+    height: 80px;
+    display: block;
+    padding: 11px 0;
+}
+
+.wrapper .log_head .log_logo a img {
+    border: 0;
+    width: 113px;
+    height: 50px;
+}
+
+.wrapper .log_head .log_logo a p {
+    float: left;
+    text-decoration: none;
+    color: #4FB99F;
+    font-weight: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 23px;
+    left: 140px;
+    line-height: 36px;
+    border-left: 2px solid #d6d6d6;
+    padding-left: 40px;
+}
+
+.login_wrap {
+    min-height: 420px;
+    padding: 40px 0;
+    background: url(../css/img/login.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 20px;
+
+    .wrapper {
+        width: 960px;
+        font-family: 'Microsoft YaHei';
+        margin: 0 auto;
+        color: #333;
+
+        .login_border {
+            padding: 8px;
+            float: right;
+            background: rgba(255, 255, 255, .6);
+
+            .login {
+                width: 330px;
+                min-height: 334px;
+                padding-bottom: 20px;
+                background: #fff;
+                position: relative;
+
+                .login_head {
+                    position: absolute;
+                    right: 30px;
+                    top: 14px;
+
+                    a {
+                        color: #333;
+                        font-size: 14px;
+                    }
+
+                    a:hover {
+                        color: #4FB99F;
+                    }
+
+                    em {
+                        width: 16px;
+                        height: 16px;
+                        background: #999;
+                        float: right;
+                        color: #fff;
+                        border-radius: 100%;
+                        text-align: center;
+                        line-height: 16px;
+                        margin: 4px 0 0 5px;
+                        font-family: '宋体';
+                        font-weight: bold;
+                    }
+                }
+
+                ul {
+                    overflow: hidden;
+                    width: 310px;
+                    padding-left: 20px;
+                    border-bottom: 1px solid #e7e7e7;
+                    height: 46px;
+                    font-size: 14px;
+
+                    li {
+                        float: left;
+                        width: 60px;
+                        text-align: center;
+                        height: 45px;
+                        margin: 0 10px;
+                        line-height: 46px;
+                        border-bottom: 1px solid #fff;
+                        cursor: pointer;
+                    }
+
+                    .login-on {
+                        color: #4FB99F;
+                        font-size: 14px;
+                        border-bottom: 1px solid #4FB99F !important;
+                    }
+                }
+
+                .login-body {
+                    padding: 5px 30px 0;
+                    overflow: hidden;
+
+                    .login-style {
+                        font-size: 12px;
+
+                        dl {
+                            margin-top: 20px;
+
+                            input {
+                                border: 1px solid #d6d6d6;
+                                height: 34px;
+                                width: 233px;
+                                padding-left: 15px;
+                                border-radius: 3px;
+                            }
+
+                            #dynamicPWD {
+                                width: 133px;
+                            }
+
+                            .btn_mfyzm {
+                                width: 90px;
+                                margin-left: 10px;
+                                padding-left: 0px;
+                                height: 36px;
+                                background: #f0f0f0;
+                                border: 1px solid #d6d6d6;
+                                border-radius: 3px;
+                                cursor: pointer;
+                            }
+
+                            #txtCode2 {
+                                width: 133px;
+                                margin-right: 10px;
+                            }
+
+                        }
+
+                    }
+
+                    .psword {
+                        margin-top: 15px;
+
+                        a {
+                            float: right;
+                        }
+
+                    }
+
+                    .remember {
+                        margin-top: 15px;
+
+                        input {
+                            margin-right: 5px;
+                        }
+
+
+                    }
+
+                    #logbtn {
+                        width: 270px;
+                        border: 0;
+                        background: #4FB99F;
+                        border-radius: 3px;
+                        height: 40px;
+                        color: #fff;
+                        cursor: pointer;
+                        margin-top: 10px;
+                        font-size: 16px;
+                        font-family: 'Microsoft YaHei';
+                    }
+
+                    #dynamicLogon {
+                        width: 270px;
+                        border: 0;
+                        background: #4FB99F;
+                        border-radius: 3px;
+                        height: 40px;
+                        color: #fff;
+                        cursor: pointer;
+                        margin-top: 10px;
+                        font-size: 16px;
+                        font-family: 'Microsoft YaHei';
+                    }
+                }
+            }
+        }
+    }
+}

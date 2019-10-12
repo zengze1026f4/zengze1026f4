@@ -1,0 +1,347 @@
+.tool-bar {
+
+    position: fixed;
+    top: 0;
+    right: -300px;
+    // right: 0;
+    width: 335px;
+    height: 100%;
+    background: #505050;
+    z-index: 98;
+    transition: right .6s ease;
+    font-size: 40px;
+
+    .tool-bar-menu {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        height: 250px;
+        margin-top: -125px;
+
+        a {
+            width: 25px;
+            height: 25px;
+            display: block;
+            padding: 5px;
+            position: relative;
+            color: #333;
+            font-size: 12px;
+            background-color: transparent;
+
+            i {
+                display: block;
+                width: 25px;
+                height: 25px;
+                color: #fff;
+                line-height: 25px;
+                text-align: center;
+            }
+
+            span {
+                display: block;
+                // display: none;
+                visibility: hidden;
+                position: absolute;
+                top: 0;
+                left: -80px;
+                width: 70px;
+                height: 35px;
+                background-color: transparent;
+                color: transparent;
+                text-align: center;
+                line-height: 35px;
+                transition: left .2s ease;
+                -webkit-transition: left .2s ease;
+
+                em {
+                    border-top: 5px solid transparent;
+                    border-left: 5px solid #419c86;
+                    border-bottom: 5px solid transparent;
+                    position: absolute;
+                    // right: 0;
+                    right: -5px;
+                    top: 13px;
+                    border-left: 5px solid #fff;
+                }
+            }
+
+
+
+            b {
+                position: absolute;
+                right: 2px;
+                top: 0;
+                color: #fff;
+                background: #4FB99F;
+                border-radius: 100%;
+                padding: 0 3px;
+                height: 14px;
+                text-align: center;
+                line-height: 14px;
+                display: none;
+                font-size: 12px;
+                font-weight: normal;
+            }
+
+
+        }
+
+        .tool-wechat span {
+            left: -100px;
+            width: 100px;
+            height: 100px;
+
+            img {
+                width: 100px;
+                height: 100px;
+            }
+
+            em {
+                border-top: 5px solid transparent;
+                border-bottom: 5px solid transparent;
+                position: absolute;
+                // transition-duration: 0.4s;
+                // right: 0;
+                right: -5px;
+                top: 13px;
+                border-left: 5px solid #fff;
+            }
+        }
+
+        a:hover {
+            background-color: #4FB99F;
+            color: #fff;
+        }
+
+
+
+        a:hover span {
+            display: block;
+            visibility: visible;
+            background: #419c86;
+            color: #333333;
+            left: -70px;
+
+        }
+
+        .tool-wechat:hover span {
+            display: block;
+            visibility: visible;
+            left: -100px;
+        }
+
+        a:hover span em {
+            right: -5px;
+            // background-color: #419c86;
+            border-left: 5px solid #419c86;
+
+        }
+
+        .tool-wechat:hover span em {
+            right: -5px;
+            background-color: #4FB99F;
+            border-left: 5px solid #fff;
+        }
+
+    }
+
+    .tool-bar-frame {
+        position: absolute;
+        width: 300px;
+        right: 0;
+        background-color: #fff;
+        height: 100%;
+
+        .shopcar {
+            width: 300px;
+            padding-top: 10px;
+            float: right;
+            font-size: 14px;
+            text-align: left;
+
+            .gotitle1 {
+                // border-top: 1px solid #dfdfdf;
+                border-bottom: 1px solid #dfdfdf;
+                padding-left: 10px;
+                height: 38px;
+                line-height: 38px;
+                cursor: pointer;
+                z-index: 1;
+                font-size: 16px;
+                box-sizing: border-box;
+                margin-bottom: 10px;
+
+                i {
+                    font-size: 30px;
+                    margin-right: 10px;
+                }
+            }
+
+            .car1 {
+                width: 300px;
+                height: 500px;
+                top: 38px;
+                right: 35px;
+                z-index: 1;
+                box-sizing: border-box;
+                z-index: 90;
+                background-color: #fff;
+                font-size: 12px;
+
+                .goodsa {
+                    overflow: auto;
+                    width: 300px;
+                    font-size: 12px;
+
+                    li {
+                        height: 80px;
+                        padding-top: 10px;
+                        padding-left: 15px;
+
+                        .leftimg {
+                            float: left;
+                            margin-right: 20px;
+
+                            img {
+                                height: 60px;
+                                width: 60px;
+                            }
+                        }
+
+                        .righttitle {
+                            float: left;
+                            width: 200px;
+
+                            a {
+                                color: #333;
+                            }
+
+                            .rightprice {
+                                color: red;
+                                clear: both;
+                                margin-top: 10px;
+
+                                .remove1 {
+                                    float: right;
+                                    display: none;
+                                    color: #333;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+
+                    li:hover .righttitle .rightprice .remove1 {
+                        display: block;
+                    }
+                }
+
+                .goodsb {
+                    position: absolute;
+                    bottom: 0px;
+                    padding-bottom: 10px;
+                    height: 90px;
+                    width: 300px;
+                    background-color: #dfdfdf;
+
+                    .buttomgoods {
+                        text-align: center;
+                        height: 50px;
+                        line-height: 50px;
+                        background-color: #dfdfdf;
+
+                        .buttomprice {
+                            color: #e73828;
+                        }
+                    }
+
+                    .qijiesuan {
+                        height: 40px;
+                        line-height: 40px;
+                        margin: auto;
+                        width: 260px;
+                        border: 1px solid #e73828;
+                        background-color: #e73828;
+                        border-radius: 10px;
+                        text-align: center;
+                        color: #fff;
+                        font-size: 14px;
+
+                    }
+
+                    .qijiesuan:hover {
+                        opacity: .6;
+                    }
+                }
+            }
+
+        }
+
+
+    }
+
+    .scroll-to-top {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: block;
+        width: 25px;
+        height: 25px;
+        display: block;
+        padding: 5px;
+
+        i {
+            font-size: 20px;
+            display: block;
+            color: #fff;
+
+        }
+
+        span {
+            display: block;
+            font-size: 12px;
+            visibility: hidden;
+            position: absolute;
+            top: 0;
+            left: -80px;
+            width: 70px;
+            height: 35px;
+            background: #419c86;
+            color: #fff;
+            text-align: center;
+            line-height: 35px;
+            transition: left .2s ease;
+            -webkit-transition: left .2s ease;
+            color: #fff;
+
+            em {
+                border-top: 5px solid transparent;
+                border-left: 5px solid #419c86;
+                border-bottom: 5px solid transparent;
+                position: absolute;
+                right: -5px;
+                top: 13px;
+            }
+        }
+    }
+
+    .scroll-to-top:hover {
+        background-color: #4FB99F;
+    }
+
+    .scroll-to-top:hover span {
+        display: block;
+        visibility: visible;
+        background: #419c86;
+        color: #333333;
+        left: -70px;
+
+    }
+
+    .scroll-to-top:hover span em {
+        right: -5px;
+        border-left: 5px solid #419c86;
+
+    }
+
+}

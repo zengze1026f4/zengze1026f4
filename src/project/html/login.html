@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> 登录页面</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="log_head">
+            <h1 class="log_logo left">
+                <a href="###">
+                    <img src="../css/img/yaya.png">
+                    <p>欢迎登录</p>
+                </a>
+            </h1>
+        </div>
+    </div>
+    <div class="login_wrap">
+        <div class="wrapper" id="login_body">
+            <div class=" login_border">
+                <!--普通登录-->
+                <div class="login">
+                    <div class="login_head">
+                        <a href="reg.html" target="_blank">账号注册
+                            <em>&gt;</em></a>
+                    </div>
+                    <ul class="login-tab">
+                        <li class="login-on">普通登录</li>
+                        <li>手机登录</li>
+                    </ul>
+                    <div class="login-body">
+                        <div class="login-style" style="display: block">
+                            <dl>
+                                <dd><input name="txtUser" type="text" id="txtUser" placeholder="用户名/邮箱/手机号"></dd>
+                                <p class="usinf" style="font-size: 12px; height: 20px;"></p>
+                            </dl>
+                            <dl>
+                                <dd><input type="password" id="Userpwd" placeholder="请输入您的密码"></dd>
+                                <p class="pswinf" style="font-size: 12px;height: 20px;"></p>
+                            </dl>
+                            <dl id="logincode" style="display: none;">
+                                <dd><input type="text" id="txtCode" name="txtCode" title="点击换一个"></dd>
+                            </dl>
+                            <div class="psword">
+                                <a href=" javascript:void(0);" class="right" target="_blank">忘记密码?</a>
+                            </div>
+
+                            <div class="remember">
+                                <input type="checkbox" id="issave" checked><label for="issave">七天免登录</label>
+                            </div>
+                            <!-- <div class="tishi"></div> -->
+                            <button id="logbtn" style="outline:none">登 录</button>
+                        </div>
+                        <div class="login-style" style="display: none">
+                            <dl>
+                                <dd><input name="phone" type="text" id="phone" placeholder="您的手机号码"></dd>
+                            </dl>
+                            <dl id="yz-code">
+                                <dd>
+                                    <input type="text" id="txtCode2" name="txtCode2" placeholder="验证码">
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dd>
+                                    <input type="text" id="dynamicPWD" placeholder="短信验证码">
+                                    <input type="button" id="btn" class="btn_mfyzm" value="获取动态密码">
+                                </dd>
+                            </dl>
+
+                            <div class="remember">
+                                <input type="checkbox" id="issave1"><label for="issave1">七天免登录登录</label>
+                            </div>
+
+                            <!-- <div class="tishi"></div> -->
+                            <button type="button" id="dynamicLogon" style="outline:none">登 录</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="bottom"></div>
+
+</body>
+<script src="../js/common.js"></script>
+<script src="../js/jquery-1.10.1.min.js"></script>
+<script src="../js/login.js"></script>
+<script>
+    $('.bottom').load('bottom.html');
+</script>
+
+</html>

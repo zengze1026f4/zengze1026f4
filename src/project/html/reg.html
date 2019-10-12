@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册页面</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/reg.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="log_head">
+            <h1 class="log_logo left">
+                <a href="###">
+                    <img src="../css/img/yaya.png">
+                    <p>新用户注册</p>
+                </a>
+            </h1>
+        </div>
+        <div class="log_wrapper">
+            <div class="reg_left">
+                <ul>
+                    <li>快速注册</li>
+                    <li class="xz">账号注册</li>
+                </ul>
+            </div>
+            <div class="reg_right">
+                已有丫丫账号？马上
+                <a class="reg_dl" href="">登录</a>
+            </div>
+            <div class="reg_main">
+                <div class="reg" style="display:none">
+                    <dl>
+                        <dt><i>*</i>手机号码</dt>
+                        <dd>
+                            <input type="text" id="usermobile"><em>手机号码非常重要，找回密码及购物都会用到</em></dd>
+                    </dl>
+                    <dl id="codedl" style="display: block;">
+                        <dt><i>*</i>验证码</dt>
+                        <dd>
+                            <input type="text">
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><i>*</i>短信验证码</dt>
+                        <dd>
+                            <input type="text" id="phonecode" style="width: 120px;"><a class="btn" id="getCode"
+                                href="###">
+                                <span id="dyMobileButton">获取短信验证码</span></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt></dt>
+                        <dd>
+                            <input name="" id="mmprovision" type="checkbox" checked="checked"
+                                style="margin-right: 5px; vertical-align: middle;">
+                            <label for="mmprovision" style="color: #999;">我已认真阅读并同意
+                                <a href="###" style="color: #39f; margin: 0 5px;">《丫丫网用户协议》</a>
+                            </label>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt></dt>
+                        <dd>
+                            <button id="regbut">提交注册</button></dd>
+                    </dl>
+                </div>
+                <div class="reg" style="display:block">
+                    <dl>
+                        <dt><i>*</i>用户名</dt>
+                        <dd>
+                            <input type="text" id="userUID"><em>6-20位字母、数字或汉字，请不要输入特殊字符！</em>
+                            <span class="inf1"></span>
+                        </dd>
+
+                    </dl>
+                    <dl>
+                        <dt><i>*</i>密码</dt>
+                        <dd>
+                            <input type="password" id="userpwd3"><em>6-18位首字母开头</em>
+                            <span class="inf2"></span>
+                        </dd>
+
+                    </dl>
+                    <dl>
+                        <dt><i>*</i>重复密码</dt>
+                        <dd>
+                            <input type="password" id="userpwd4"><em>请重复输入密码确认不会输错</em>
+                            <span class="inf3"></span>
+                        </dd>
+
+                    </dl>
+
+                    <dl>
+                        <dt><i>*</i>手机号码</dt>
+                        <dd>
+                            <input type="text" id="usermobile2"><em>手机号码非常重要，找回密码及购物都会用到</em>
+                            <span class="inf4"></span>
+                        </dd>
+
+                    </dl>
+                    <dl>
+                        <dt>邮箱地址</dt>
+                        <dd>
+                            <input type="text" id="usermail"><em>请填写邮箱，用于找回密码</em>
+                            <span class="inf5"></span>
+                        </dd>
+
+                    </dl>
+                    <dl id="codeyz">
+                        <dt>验证码</dt>
+                        <dd>
+                            <input type="text" id="yzmcode" style="width: 120px;">
+                            <span id="yzm"></span>
+                            <a href="###" id="btn" style="margin-left: 10px;">看不清楚？换一张</a>
+                            <span id="jieguo"></span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt></dt>
+                        <dd>
+                            <input name="" id="mmprovision2" type="checkbox" checked="checked"
+                                style="margin-right: 5px;"><label for="mmprovision" style="color: #999;">我已认真阅读并同意<a
+                                    href="javascript:;" class="showyhzt"
+                                    style="color: #39f; margin: 0 5px;">《丫丫网用户协议》</a></label></dd>
+                    </dl>
+                    <dl>
+                        <dt></dt>
+                        <dd>
+                            <button id="regbut2">提交注册</button></dd>
+                        <!-- <span ></span> -->
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom"></div>
+</body>
+<script src="../js/common.js"></script>
+<script src="../js/reg.js"></script>
+<script src="../js/jquery-1.10.1.min.js"></script>
+<script>
+    $('.bottom').load('bottom.html');
+    (function () {
+
+        // $('.reg_left li').click(function () {
+        //     $(this).attr('class', 'xz').siblings().attr('class', '');
+        //     $('.reg_main .reg').eq($(this).index()).css('display', 'block').siblings().css('display', 'none');
+        // });
+    }
+    )();
+
+</script>
+
+</html>

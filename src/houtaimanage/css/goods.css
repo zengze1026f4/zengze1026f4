@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#box {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+
+#box .content {
+    width: 90%;
+    margin: auto;
+}
+
+.title {
+    background: white;
+    font-size: 12px;
+    padding-left: 30px;
+    height: 36px;
+    line-height: 36px;
+}
+
+.title i {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(../images/zhuyelogo.png) no-repeat;
+}
+
+.title a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+
+h2 {
+    height: 47px;
+    line-height: 47px;
+    font-size: 18px;
+    color: #666666;
+    font-weight: bolder;
+}
+
+#box .line {
+    width: 100%;
+    height: 2px;
+    background: #ee7600;
+    margin-bottom: 16px;
+}
+
+table {
+    width: 100%;
+    font-size: 13px;
+    text-align: center;
+}
+
+table thead {
+    background: #efefef;
+    height: 30px;
+}
+
+table tbody tr {
+    background: white;
+    height: 44px;
+}
+
+table tbody tr:nth-child(1) {
+    background: #efefef;
+    color: black;
+    font-weight: bolder;
+}
+
+#box .foot {
+    width: 100%;
+    height: 100%;
+    background: #eeeeee;
+}
+
+table tr td input {
+    color: white;
+}
+
+#usave {
+    width: 94px;
+    height: 28px;
+    background: #5bb75b;
+}
+
+#del {
+    width: 45px;
+    height: 28px;
+    background: #da4f49;
+}
+
+#edit {
+    width: 45px;
+    height: 28px;
+    background: #49afcd;
+}
+
+.fenye {
+    float: right;
+    margin-top: 18px;
+}
+
+.fenye input {
+    padding: 10px;
+    /* border: 1px #dcdcdc solid; */
+    /* background: #dcdcdc; */
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+.fenye .active {
+    background: #41bedd;
+}
+
+.alldel {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.alldel input {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rosybrown;
+    box-sizing: border-box;
+    color: #fff;
+}

@@ -1,0 +1,98 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+ul li {
+    list-style: none;
+}
+
+body {
+    width: 100%;
+}
+
+#slideshow {
+    width: 600px;
+    height: 300px;
+    /* margin: auto; */
+    position: relative;
+}
+
+#slideshow li {
+    position: absolute;
+    left: 0px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#slideshow ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.smallbtn {
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    text-align: center;
+}
+
+.smallbtn span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #d8d8d8;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.smallbtn span.active {
+    background: rgb(192, 60, 12);
+}
+
+/*左右按钮样式*/
+.twobtn {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -20px;
+}
+
+.twobtn .prev {
+    width: 30px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: rgba(000, 000, 000, 0.3);
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    font-size: 20px;
+    color: #fff;
+    /* border-radius: 0 20px 20px 0; */
+    /* display: none; */
+}
+
+.twobtn .next {
+    width: 30px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: rgba(000, 000, 000, 0.3);
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    color: #fff;
+    /* border-radius: 20px 0 0 20px; */
+    /* display: none; */
+}

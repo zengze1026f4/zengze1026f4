@@ -1,0 +1,107 @@
+#usercontent {
+    width: 100%;
+    overflow: hidden;
+}
+
+.title {
+    background: white;
+    font-size: 12px;
+    padding-left: 30px;
+    height: 36px;
+    line-height: 36px;
+}
+
+.title i {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(../images/zhuyelogo.png) no-repeat;
+}
+
+.title a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+
+#usercontent .h11 {
+
+    width: 96%;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    height: 40px;
+    color: #333;
+    margin-bottom: 40px;
+    border-bottom: 2px solid orangered;
+}
+
+#usercontent .h12 {
+    width: 96%;
+    margin: auto;
+    background-color: #F7F7F7;
+
+}
+
+#usercontent .h12 .a1 {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #e6e6e6;
+    margin-bottom: 20px;
+}
+
+#usercontent .h12 .a1 span:nth-child(1) {
+    font-size: 26px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#usercontent .h12 .a1 span:nth-child(2) {
+    color: black;
+    font-size: 18px;
+}
+
+#usercontent .h12 .a2 {
+    width: 100%;
+    margin-bottom: 20px;
+    margin: auto;
+
+}
+
+#usercontent .h12 .a2 .a11 {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding-left: 180px;
+}
+
+#usercontent .h12 .a2 .a11 span {
+    font-size: 12px;
+    color: gray;
+    margin-left: 10px;
+}
+
+#usercontent .h12 .a2 .a11 label {
+    margin-right: 10px;
+}
+
+#usercontent .h12 .a2 .a11 input {
+    width: 300px;
+    height: 25px;
+    border: 1px solid #ccc;
+}
+
+#usercontent .h12 .form-actions #baocun {
+    height: 40px;
+    width: 100px;
+    margin-left: 230px;
+    margin-bottom: 20px;
+    background-color: #58bc58;
+    color: #fff;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
