@@ -68,6 +68,7 @@
             let phone = $(this).parent().parent().find('.phone').html();
             let email = $(this).parent().parent().find('.email').html();
             //登录保存修改数据
+            // console.log(uid);
             let baocun = new Promise(function (resolve) {
                 $.ajax({
                     type: 'post',
@@ -80,7 +81,7 @@
                         phone
                     },
                     success: str => {
-                        console.log(str);
+                        // console.log(str);
                         resolve(str);
                     }
                 });

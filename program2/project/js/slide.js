@@ -17,6 +17,23 @@
         }
         istrue = !istrue;
     });
+    //回到顶部
+
+    $('#gotop').click(function () {
+        var scrollTop = window.scrollY;//获取垂直方向的滚动距离
+        var boxTop = $('#gotop').offset().top;
+        var timer = setInterval(function () {
+            var speed = parseInt(scrollTop / 6);
+            var speed1 = parseInt(boxTop / 6);
+            boxTop -= speed1;
+            scrollTop -= speed;
+            if (speed <= 0 || speed1 <= 0) {
+                clearInterval(timer);
+            }
+            window.scrollTo(0, scrollTop);//scrollTo(x, y) //指定滚动位置 :回到顶部 *scrollBy(xnum, ynum) //设置基于当前位置滚动的距离，可以为负数
+            gtp.style.top = boxTop + 'px';
+        }, 30);
+    });
     //购物车
     let username = getcookie('username');
     if (username) {
@@ -147,4 +164,6 @@
         }
 
     };
+
+
 })();

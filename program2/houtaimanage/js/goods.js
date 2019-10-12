@@ -63,7 +63,7 @@ $('tbody').on('click', '#usave', function () {
         let price = $(this).parent().parent().find('.price').html();
         let kucun = $(this).parent().parent().find('.kucun').html();
         let bigimg = $(this).parent().parent().find('.bigimg').html();
-        console.log(title, price, kucun, bigimg);
+        // console.log(title, price, kucun, bigimg);
         //登录保存修改数据
         let baocun = new Promise(function (resolve) {
             $.ajax({
@@ -77,7 +77,7 @@ $('tbody').on('click', '#usave', function () {
                     bigimg
                 },
                 success: str => {
-                    console.log(str);
+                    // console.log(str);
                     resolve(str);
                 }
             });
